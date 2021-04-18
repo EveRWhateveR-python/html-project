@@ -9,13 +9,6 @@ body{
     margin: 0 auto;
 }
 
-.header_links{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
-
 .header{
     width: 100%;
     position: absolute;
@@ -25,10 +18,25 @@ body{
     z-index: 10;
 }
 
+.header_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
 .title{
     font-size: 30px;
     font-weight: 700;
     color: red;
+}
+
+.div_title{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .nav{
@@ -45,11 +53,7 @@ body{
     margin: 0 10px;
 }
 
-.div_title{
-    font-size: 50px;
-    text-transform: uppercase;
-    text-align: center;
-}
+
 
 .box_1 {
 border-radius: 20px;
@@ -86,6 +90,16 @@ border-radius: 20px;
 position: absolute;
 right: 70px;
 top: 1000px;
+background-color: white;
+width: 800px;
+height: 150px;
+}
+
+.box_5 {
+border-radius: 20px;
+position: absolute;
+left: 70px;
+top: 100px;
 background-color: white;
 width: 800px;
 height: 150px;
