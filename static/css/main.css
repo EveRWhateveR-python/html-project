@@ -108,7 +108,7 @@ width: 150px;
 .text_box_left {
 float: left;
 width: 600px;
-padding-left: 30px;
+padding-left: 10px;
 }
 
 .img_class_left {
@@ -125,8 +125,8 @@ width: 150px;
 
 .text_box_right {
 float: right;
-width: 550px;
-padding-right: 50px;
+width: 600px;
+padding-right: 10px;
 }
 
 .img_class_right {

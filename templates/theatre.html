@@ -1,8 +1,40 @@
 <html>
     <head>
-
+        <link rel="stylesheet" href="../../../static/css/theatre.css">
+        <meta charset="UTF-8">
+        <title>Все театры</title>
+        <style>
+            body{
+            background: url(../../../static/img/background.png);
+            }
+            A {
+            text-decoration: none;
+            }
+        </style>
     </head>
     <body>
-        <h1>{{ name }} {{ info }} {{ age }} {{ adress }} {{ link }}</h1>
+        <header class="header">
+                <div class="container">
+                    <div class="header_links">
+                        <div class="title">{{ name }}</div>
+                        <nav class="nav">
+                            <a href="/theatre/about" class="nav_link">О нас</a>
+                            <a href="/theatre/main" class="nav_link">На главную</a>
+                            <a href="/theatre/look_all" class="nav_link">Все театры</a>
+                        </nav>
+                    </div>
+                </div>
+        </header>
+        <div class="box" style="top: 100px">
+            <div class="foto_box">
+                <img src="../../../static/img/{{ foto }}.jpg" class = "img_class">
+            </div>
+            <div class="text_box"><a name="b"></a>
+                <h3>{{ info }}</h3>
+                <h3>Год основания: {{ age }}</h3>
+                <h3>Адрес: {{ adress }}</h3>
+                <h3><a href="{{ link }}" class="text_link">На главный сайт</a></h3>
+            </div>
+        </div>
     </body>
 </html>

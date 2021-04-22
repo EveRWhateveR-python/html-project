@@ -57,34 +57,3 @@ body{
 color: red;
 }
 
-.box {
-border-radius: 20px;
-position: absolute;
-left: 70px;
-background-color: white;
-width: 1200px;
-height: 400px;
-}
-
-.foto_box {
-float: left;
-width: 400px;
-}
-
-.text_box {
-float: left;
-width: 700px;
-padding-left: 10px;
-color: black;
-}
-
-.img_class {
-border-radius: 20px 0 0 20px;
-width: 400px;
-height: 400px;
-border: 1 px solid black;
-}
-
-.text_link{
-color: black;
-}
